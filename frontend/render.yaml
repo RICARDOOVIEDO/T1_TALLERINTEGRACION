@@ -1,0 +1,5 @@
+services:
+  - name: frontend
+    env: production
+    startCommand: yarn vite --port 5174
+    port: 5174

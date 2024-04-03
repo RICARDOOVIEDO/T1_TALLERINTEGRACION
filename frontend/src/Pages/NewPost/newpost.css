@@ -1,0 +1,68 @@
+.new-post-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px; /* Ajusta el margen superior según sea necesario */
+  }
+  
+  .new-post-heading {
+    margin-bottom: 20px;
+  }
+  
+  .new-post-form {
+    width: 400px; /* Ajusta el ancho del formulario según sea necesario */
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  textarea {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    color: #333;
+  }
+  
+  input[type="file"] {
+    width: 100%;
+    padding: 8px;
+  }
+  
+  .submit-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .submit-button:hover {
+    background-color: #0056b3;
+  }
+  select {
+    color: #333; /* Cambia el color de la letra del select según tus preferencias */
+  }
+  
+  .option{
+    color: #333; /* Cambia el color de la letra de las opciones del select según tus preferencias */
+  }
+  .username{
+    color: #f9f5f5;
+  }
+  .image-preview img {
+    max-width: 100%; /* Ajusta el ancho máximo al 100% del contenedor */
+    max-height: 200px; /* Establece una altura máxima de 200px */
+  }
+  

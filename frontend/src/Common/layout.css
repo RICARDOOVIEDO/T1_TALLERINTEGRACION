@@ -1,0 +1,18 @@
+.page-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Establece el alto mínimo de la página */
+  }
+  
+  .content-container {
+    flex-grow: 1; /* Hace que el contenido principal ocupe el espacio disponible */
+    padding: 20px;
+    align-self: center; /* Añade relleno para separar el contenido del Navbar y el Footer */
+  }
+  
+  footer {
+    background-color: #333; /* Cambia el color de fondo del Footer según tus preferencias */
+    color: #fff; /* Cambia el color del texto del Footer según tus preferencias */
+    padding: 20px; /* Añade un relleno para el contenido del Footer */
+    margin-top: auto; /* Empuja el Footer hacia abajo, pegándolo en la parte inferior */
+  }

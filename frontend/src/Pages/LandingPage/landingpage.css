@@ -1,0 +1,62 @@
+.navbar-link {
+    font-size: 1vw;
+    text-decoration: none;
+    cursor: pointer;
+    transition: color 0.5s ease-in;
+    /* Añade un borde sólido */
+    border: 2px solid #fff;
+    /* Establece el radio de borde para hacerlo más redondeado */
+    border-radius: 5px;
+    /* Añade relleno al botón */
+    padding: 10px 20px;
+    /* Establece el cursor cuando se pasa el ratón sobre el botón */
+    cursor: pointer;
+  }
+  
+  .navbar-element:hover>.navbar-link {
+    color: #3f38c3;
+  }
+
+  .landing-page p,
+  .landing-page h2,
+  .landing-page h1 {
+  margin-bottom: 50px;
+  color: #333333; /* Ajusta el valor según el espacio que desees */
+}
+.button_slide {
+  color: #1412a4;
+  border: 2px solid rgb(216, 2, 134);
+  border-radius: 0px;
+  padding: 18px 36px;
+  display: inline-block;
+  font-family: "Lucida Console", Monaco, monospace;
+  font-size: 14px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  box-shadow: inset 0 0 0 0 #D80286;
+  -webkit-transition: ease-out 0.4s;
+  -moz-transition: ease-out 0.4s;
+  transition: ease-out 0.4s;
+}
+
+.slide_down:hover {
+  box-shadow: inset 0 100px 0 0 #D80286;
+}
+.landing-page{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    background-color: #ffffff; /* Fondo blanco */
+    color: #333333; /* Color de texto oscuro que combina con el blanco */
+}
+
+.contenedor{
+  display: flex;
+  justify-content: space-between; /* Distribuye los elementos a lo largo del contenedor */
+  align-items: center; /* Centra verticalmente los elementos */
+}
+
+

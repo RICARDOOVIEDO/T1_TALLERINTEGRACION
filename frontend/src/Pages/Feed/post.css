@@ -1,0 +1,82 @@
+.post-container {
+  background-color: #f901d8;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  padding: 20px;
+  margin-bottom: 20px;
+  }
+
+  
+  .post-container:hover {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .post-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #0e0202;
+  }
+  
+  .post-content {
+    font-size: 1rem;
+    color: #333333;
+    margin-bottom: 15px;
+  }
+  
+  .post-image {
+    max-width: 200px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    min-width: 40px;
+    min-height: 40px;
+    
+  }
+  
+  .post-fecha {
+    font-size: 0.9rem;
+    color: #999999;
+  }
+  
+  .post-fecha span {
+    margin-right: 10px;
+  }
+  
+  
+  .post-comments{
+    margin: auto;
+    color: #240ee9;
+    border: 2px solid rgb(216, 2, 134);
+    border-radius: 0px;
+    padding: 18px 36px;
+    display: inline-block;
+    font-family: "Lucida Console", Monaco, monospace;
+    font-size: 14px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    box-shadow: inset 0 0 0 0 #D80286;
+    -webkit-transition: ease-out 0.4s;
+    -moz-transition: ease-out 0.4s;
+    transition: ease-out 0.4s;
+  }
+  
+  .slide_over:hover {
+    box-shadow: inset 0 100px 0 0 #D80286;
+  }
+  .navlink {
+    text-decoration: none; /* Quitar subrayado del enlace */
+    color: #333; /* Color del texto */
+    font-weight: bold; /* Texto en negrita */
+    padding: 8px 12px; /* Espacio interno */
+    margin-right: 10px; /* Margen derecho */
+    border-radius: 4px; /* Bordes redondeados */
+    transition: background-color 0.3s; /* Transición suave de color de fondo */
+  }
+  
+  .navlink:hover {
+    background-color: #D80286; /* Cambio de color de fondo al pasar el ratón */
+    color: #0e0202; /* Cambio de color del texto al pasar el ratón */
+  }
+  body {
+    background-color: #f0f0f0; /* Cambia el color de fondo de toda la página */
+  }

@@ -1,0 +1,7 @@
+.footer {
+    background-color: #333; /* Cambia el color de fondo del Footer según tus preferencias */
+    color: #fff; /* Cambia el color del texto del Footer según tus preferencias */
+    padding: 20px; /* Añade un relleno para el contenido del Footer */
+    margin-top: auto; /* Empuja el Footer hacia abajo, pegándolo en la parte inferior */
+    margin-bottom: auto;
+  }

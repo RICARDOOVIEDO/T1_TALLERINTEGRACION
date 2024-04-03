@@ -1,0 +1,35 @@
+.comments-container {
+    padding: 20px;
+  }
+  
+  .comment-list {
+    margin-top: 10px;
+  }
+  
+  .comment-box {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .comment-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 5px;
+  }
+  
+  .comment-author {
+    font-weight: bold;
+    margin-right: 5px;
+  }
+  
+  .comment-time {
+    color: #999;
+    font-size: 12px;
+  }
+  
+  .comment-content {
+    margin: 0;
+  }
